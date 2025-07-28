@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --bg-color: #232634;
+  --text-color: #c6d0f5;
+}
+
+[data-theme="light"] {
+  --bg-color: #dce0e8;
+  --text-color: #4c4f69;
+}
+
+* {
+  transition: 0.1s ease-out;
+}
+
+body {
+  margin: 0;
+  font-family: "Urbanist", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: left;
+  height: 100vh;
+}

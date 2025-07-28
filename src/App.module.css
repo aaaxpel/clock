@@ -1,0 +1,39 @@
+.clock > span {
+    font-size: 48px;
+    font-weight: 700;
+    user-select: none;
+    -moz-user-select: none;
+}
+
+.clock {
+    min-width: 200px;
+}
+
+.control {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.control > button {
+    width: 16px;
+    height: 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+.active {
+    background-color: #e5c890;
+}
+
+.inactive {
+    background-color: #a6d189;
+}
+
+.reset {
+    background-color: #e78284;
+}
+
+.theme {
+    background-color: var(--text-color)
+}
