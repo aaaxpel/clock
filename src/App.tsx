@@ -1,6 +1,6 @@
 import { createSignal } from "solid-js"
 import styles from "./App.module.css"
-import ToggleTheme from "./ToggleTheme"
+import ToggleTheme from "./ToggleTheme.tsx"
 
 const App = () => {
     const [hours, setHours] = createSignal(0)

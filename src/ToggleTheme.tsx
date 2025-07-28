@@ -14,7 +14,7 @@ const ToggleTheme = () => {
 
     onMount(() => {
         const theme = localStorage.getItem('theme')
-        setIsDark(theme === 'light')
+        setIsDark(theme === 'dark')
         document.documentElement.setAttribute('data-theme', theme)
     })
 
